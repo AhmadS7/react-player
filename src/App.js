@@ -32,7 +32,7 @@ function App() {
     const roundedCurrent = Math.round(current);
     const roundedduration = Math.round(duration);
     const animation = Math.round((roundedCurrent / roundedduration) * 100);
-    console.log(animation);
+   
 
     setSongInfo({
       ...songInfo,
